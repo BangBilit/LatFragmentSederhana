@@ -16,6 +16,7 @@
         android:text="Fragment fDua" />
     
     <TextView
+        android:id="@+id/tvHasil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data dari Fragment 1"/>
