@@ -48,6 +48,11 @@ class fSatu : Fragment() {
             val fragmentTransaction = fragmentManager.beginTransaction()
 
             val fragmentDua = fDua()
+            val dataKirim = Bundle().apply {
+                putString("nama","Andi")
+                putString("Alamat","siwalankerto")
+            }
+            fragmentDua.arguments = dataKirim
 
             fragmentTransaction.replace(
                 R.id.fragment_container,fragmentDua)
