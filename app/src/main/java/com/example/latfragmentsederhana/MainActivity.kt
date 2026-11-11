@@ -25,6 +25,14 @@ class MainActivity : AppCompatActivity() {
         if(savedInstanceState == null){
             replaceFragment(fSatu())
         }
+
+        btnFragment1.setOnClickListener {
+            replaceFragment(fDua())
+        }
+
+        btnFragment2.setOnClickListener {
+            replaceFragment(fSatu())
+        }
     }
 
     private fun replaceFragment(fragment : Fragment){

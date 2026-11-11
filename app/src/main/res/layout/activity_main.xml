@@ -11,12 +11,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnFragment1"/>
+        android:id="@+id/btnFragment1"
+        android:text="Fragment 1"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnFragment2"/>
+        android:id="@+id/btnFragment2"
+        android:text="Fragment 2"/>
 
     <androidx.fragment.app.FragmentContainerView
         android:layout_height="match_parent"
